@@ -1,4 +1,4 @@
-namespace Atividades_Praticas_de_POO
+namespace Exercicio_07
 {
     public class Pessoa
     {

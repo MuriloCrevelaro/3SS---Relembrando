@@ -1,4 +1,4 @@
-namespace Atividades_Praticas_de_POO
+namespace Exercicio_06
 {
     public class Pessoa
     {
@@ -9,6 +9,14 @@ namespace Atividades_Praticas_de_POO
             Console.WriteLine($"Nome: {Nome}");
             Console.WriteLine($"Idade: {Idade}");
             return;
+        }
+        public void Apresentar()
+        {
+            Console.WriteLine($"Meu nome é {Nome} tenho {Idade}");
+        }
+        public void Apresentar(string Sobrenome)
+        {
+            Console.WriteLine($"Meu nome é {Nome} {Sobrenome} tenho {Idade}");
         }
 
         public Pessoa(string nome, int idade)
